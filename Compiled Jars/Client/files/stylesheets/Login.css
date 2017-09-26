@@ -1,0 +1,39 @@
+.root {
+     -fx-background-image: url("wood2.png");
+	 -fx-font-family: arial;
+	 -fx-background-size:cover;
+}
+
+.label {
+    -fx-font-size: 17,5px;
+    -fx-text-fill: white;
+}
+
+#txtNickname{
+	-fx-background-image: url("chat.png");
+	-fx-background-size: cover;
+	-fx-text-fill: black;	
+}
+
+#txtPort{
+	-fx-background-image: url("chat.png");
+	-fx-background-size: cover;
+	-fx-text-fill: black;	
+}
+
+#txtAdress{
+	-fx-background-image: url("chat.png");
+	-fx-background-size: cover;
+	-fx-text-fill: black;	
+}
+
+#lblNickTaken{
+    -fx-font-size: 17,5px;
+	-fx-font-weight: bold;
+    -fx-text-fill: #be1d00;
+}
+
+.button {
+	-fx-padding: 0px;
+	-fx-background-color: transparent;
+}

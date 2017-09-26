@@ -1,0 +1,66 @@
+
+[	
+
+	{
+	
+		"occurrence": 5,
+		
+		"areas": ["Town", "Meadow"],
+		
+		"edges": [[0], [1], [1], [1]],
+		
+		"adjacency": [[1], [0]]
+		
+	},
+	
+	{
+	
+		"occurrence": 4,
+		
+		"areas": ["Meadow","Road", "Meadow", "Road", "Meadow", "Road"],
+		
+		"edges": [[0], [2,1,0], [4,3,2], [0,5,4]],
+		
+		"adjacency": [[1,3], [0,2], [1,4], [2,4], [3,5], [0,4]]
+		
+	},
+	
+	{
+	
+		"occurrence": 1,
+		
+		"areas": ["Meadow", "Road", "Meadow", "Road", "Meadow", "Road", "Meadow", "Road"],
+		
+		"edges": [[0,1,2], [4,3,0], [6,5,4], [2,7,6]],
+		
+		"adjacency": [[1,3], [0,2], [1,7], [0,4], [3,5], [4,6], [5,7], [2,6]]
+		
+	},
+	
+	{
+	
+		"occurrence": 2,
+		
+		"areas": ["Meadow", "Road", "Meadow"],
+		
+		"edges": [[0,1,2], [0], [2,1,0], [2]],
+		
+		"adjacency": [[1], [0,2], [1]],
+		
+		"multiplier": [1]
+		
+	},
+	
+	{
+
+		"occurrence": 1,
+		
+		"areas": ["Town"],
+		
+		"edges": [[0], [0], [0], [0]],
+		
+		"multiplier": [0]
+		
+	}
+		
+]

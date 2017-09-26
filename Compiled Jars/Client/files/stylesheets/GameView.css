@@ -1,0 +1,86 @@
+.scroll-pane, .text-area, .text-field{
+	-fx-background-color: transparent;
+}
+
+#remaining {
+    -fx-text-fill: white;
+    -fx-font-size: 80;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+.button {
+	-fx-padding: 0px;
+	-fx-background-color: transparent;
+}
+
+#rotate-button {
+    -fx-background-image: url("rotate.png");
+    -fx-background-size: stretch;
+}
+
+#rotate-button:pressed {
+    -fx-background-image: url("rotate_down.png");
+}
+
+#your-turn {
+    -fx-background-image: url("your_turn.png");
+    -fx-background-size: stretch;
+}
+
+#your-turn:hover {
+    -fx-background-image: url("send_move.png");
+}
+
+#your-turn:pressed {
+    -fx-background-image: url("send_move_down.png");
+}
+
+#not-your-turn {
+    -fx-background-image: url("not_your_turn.png");
+    -fx-background-size: stretch;
+}
+
+#zoom-in {
+    -fx-background-image: url("zoomIn.png");
+    -fx-background-size: stretch;
+}
+
+#zoom-in:pressed {
+    -fx-background-image: url("zoomIn_down.png");
+}
+
+#zoom-out {
+    -fx-background-image: url("zoomOut.png");
+    -fx-background-size: stretch;
+}
+
+#zoom-out:pressed {
+    -fx-background-image: url("zoomOut_down.png");
+}
+
+#help {
+    -fx-background-image: url("help.png");
+    -fx-background-size: stretch;
+}
+
+#help:pressed {
+    -fx-background-image: url("help_down.png");
+}
+
+TextArea *.scroll-bar *.increment-button,
+TextArea *.scroll-bar *.decrement-button{
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-shape: null;
+}
+TextArea *.scroll-bar *.increment-arrow,
+TextArea *.scroll-bar *.decrement-arrow{
+    -fx-background-color: null;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-shape: null;
+}

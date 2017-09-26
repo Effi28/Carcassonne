@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration status="OFF">
+	<appenders>
+		<Console name="console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d [%t] %logger{36} %l - %msg%n"/>
+		</Console>
+		<File name="infofile" filename="log/info.log">
+			<PatternLayout pattern="%d [%t] %logger{36}	%l - %msg%n"/>
+		</File>
+		<File name="errorfile" filename="log/error.log">
+			<PatternLayout pattern="%d [%t] %logger{36} %l - %msg%n"/>
+		</File>
+		<File name="warnfile" filename="log/warn.log">
+			<PatternLayout pattern="%d [%t] %logger{36} %l - %msg%n"/>
+		</File>
+		<File name="userfile" filename="log/user.log">
+			<PatternLayout pattern="%d %logger{36} - %msg%n"/>
+		</File>
+	</appenders>
+	<loggers>
+		<root level="INFO" additivity="false">
+			<appender-ref ref="console"/>
+			<appender-ref ref="infofile"/>
+		</root>
+		<Logger name="WARN" level="warn" additivity="false">
+			<appender-ref ref="console"/>
+			<appender-ref ref="warnfile"/>
+		</Logger>
+		<Logger name="ERROR" level="error" additivity="false">
+			<appender-ref ref="console"/>
+			<appender-ref ref="errorfile"/>
+		</Logger>
+		<Logger name="USER" level="info" additivity="false">
+			<appender-ref ref="console"/>
+			<appender-ref ref="userfile"/>
+		</Logger>
+	</loggers>
+</configuration>

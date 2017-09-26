@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.4" icons="true" automaticImage="JPEG">  
+  <object id="1" language="java" name="client.view.ChatLobby" project="Carcassonne1" 
+    file="/Carcassonne1/src/client/view/ChatLobby.java" binary="false" label="chatLobby" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="37" y="0"/>    
+    <execution id="2">      
+      <position height="418" width="0" x="0" y="83"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="21" width="0" x="0" y="125"/>    
+    </execution>    
+    <execution id="6">      
+      <position height="288" width="0" x="0" y="192"/>    
+    </execution>  
+  </object>  
+  <object id="9" language="java" name="client.controller.CarcassoneController" project="Carcassonne1" 
+    file="/Carcassonne1/src/client/controller/CarcassoneController.java" binary="false" label="controller" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="8">      
+      <position height="241" width="0" x="0" y="218"/>    
+    </execution>  
+  </object>  
+  <object id="12" language="java" name="client.model.clientCommunication.ClientControl" project="Carcassonne1" 
+    file="/Carcassonne1/src/client/model/clientCommunication/ClientControl.java" binary="false" label="control" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="11">      
+      <position height="199" width="0" x="0" y="239"/>    
+    </execution>  
+  </object>  
+  <object id="17" language="java" name="client.model.clientCommunication.ServerHandler" project="Carcassonne1" 
+    file="/Carcassonne1/src/client/model/clientCommunication/ServerHandler.java" binary="false" label="handler" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="14">      
+      <position height="21" width="0" x="0" y="260"/>    
+    </execution>  
+  </object>  
+  <object id="18" language="java" name="client.model.clientCommunication.ClientMessageSender" project="Carcassonne1" 
+    file="/Carcassonne1/src/client/model/clientCommunication/ClientMessageSender.java" binary="false" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="16">      
+      <position height="115" width="0" x="0" y="302"/>    
+    </execution>    
+    <execution id="20">      
+      <position height="21" width="0" x="0" y="344"/>    
+    </execution>  
+  </object>  
+  <object id="23" language="java" name="client.model.clientCommunication.ClientMessageBuilder" project="Carcassonne1" 
+    file="/Carcassonne1/src/client/model/clientCommunication/ClientMessageBuilder.java" binary="false" 
+    label="&lt;static&gt;" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="22">      
+      <position height="21" width="0" x="0" y="375"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="insertLineAddListener():void">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="sendText():void">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="sendMessage(java.lang.String):void">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="10" operation="sendMessage(java.lang.String):void">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>  
+  <message id="13" operation="getSender():client.model.clientCommunication.ClientMessageSender">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="15" operation="sendChatMessage(java.lang.String,java.lang.String):void">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="19" operation="sendGeneralMessage(org.json.JSONObject):void">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="21" operation="writeChatMessage(java.lang.String,java.lang.String,java.lang.String):org.json.JSONObject">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="22"/>  
+  </message>
+</sequence-diagram>

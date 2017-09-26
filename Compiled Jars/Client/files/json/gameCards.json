@@ -1,0 +1,302 @@
+
+[
+	
+	{
+	
+		"occurrence" : 2,
+		
+		"areas" : ["Cloister", "Meadow", "Road"],
+		
+		"edges" : [[1], [1], [1,2,1], [1]],
+		
+		"adjacency" : [[1,2], [0,2], [0,1]]
+		
+	},
+	
+	{
+	
+		"occurrence": 4,
+		
+		"areas": ["Cloister", "Meadow"],
+		
+		"edges": [[1], [1], [1], [1]],
+		
+		"adjacency": [[1], [0]]
+
+	},
+	
+	{
+	
+		"occurrence": 1,
+		
+		"areas": ["Town"],
+		
+		"edges": [[0], [0], [0], [0]],
+		
+		"bonus": [0]
+		
+	},
+	
+	{
+	
+		"occurrence": 3,
+		
+		"areas": ["Town", "Meadow", "Road", "Meadow"],
+		
+		"edges": [[1,2,3],[1],[3,2,1],[0]],
+		
+		"adjacency": [[3], [2], [1,3], [2,0]]
+		
+	},
+	
+	{
+	
+		"occurrence": 5,
+		
+		"areas": ["Town", "Meadow"],
+		
+		"edges": [[0], [1], [1], [1]],
+		
+		"adjacency": [[1], [0]]
+		
+	},
+	
+	{
+	
+		"occurrence": 2,
+		
+		"areas": ["Town", "Meadow", "Meadow"],
+		
+		"edges": [[1], [0], [2], [0]],
+		
+		"adjacency":[[1,2], [0], [0]],
+		
+		"bonus":[0]
+		
+	},
+	
+	{
+	
+		"occurrence": 1,
+		
+		"areas": ["Town", "Meadow", "Meadow"],
+		
+		"edges": [[0], [1], [0], [2]],
+		
+		"adjacency": [[1,2], [0], [0]]
+		
+	},
+	
+	{
+	
+		"occurrence": 3,
+		
+		"areas": ["Town", "Town", "Meadow"],
+		
+		"edges": [[2], [0], [2], [1]],
+		
+		"adjacency": [[2], [2], [0,1]]
+		
+	},
+	
+	{
+	
+		"occurrence": 2,
+		
+		"areas": ["Town", "Town", "Meadow"],
+		
+		"edges": [[2], [2], [0], [1]],
+		
+		"adjacency":[[2], [2], [0,1]]
+		
+	},
+	
+	{
+	
+		"occurrence": 3,
+		
+		"areas": ["Town", "Meadow", "Road", "Meadow"],
+		
+		"edges": [[0], [1], [3,2,1], [1,2,3]],
+		
+		"adjacency": [[1], [0,2], [1,3], [2]]
+		
+	},
+	
+	{
+	
+		"occurrence": 3,
+		
+		"areas": ["Town", "Meadow", "Road", "Meadow"],
+		
+		"edges": [[3,2,1], [1,2,3], [1], [0]],
+		
+		"adjacency": [[1], [0,2], [1,3], [2]]
+		
+	},
+	
+	{
+	
+		"occurrence": 3,
+		
+		"areas": ["Town", "Meadow", "Road", "Meadow", "Road", "Meadow", "Road"],
+		
+		"edges": [[1,2,3], [5,4,1], [3,6,5], [0]],
+		
+		"adjacency": [[3], [2,4], [1,3], [0,2,6], [1,5], [4,6], [3,5]]
+		
+	},
+	
+	{
+	
+		"occurrence": 2,
+		
+		"areas": ["Town", "Meadow"],
+		
+		"edges": [[0], [0], [1], [1]],
+		
+		"adjacency": [[1], [0]],
+		
+		"bonus": [0]
+		
+	},
+	
+	{
+	
+		"occurrence": 3,
+		
+		"areas": ["Town", "Meadow"],
+		
+		"edges": [[0], [0], [1], [1]],
+		
+		"adjacency": [[1], [0]]
+		
+	},
+	
+	{
+	
+		"occurrence": 2,
+		
+		"areas": ["Town", "Meadow", "Road", "Meadow"],
+		
+		"edges": [[0], [0], [3,2,1], [1,2,3]],
+		
+		"adjacency": [[1], [0,2], [1,3], [2]],
+		
+		"bonus": [0]
+		
+	},
+	
+	{
+	
+		"occurrence": 3,
+		
+		"areas": ["Town", "Meadow", "Road", "Meadow"],
+		
+		"edges": [[0], [0], [3,2,1], [1,2,3]],
+		
+		"adjacency": [[1], [0,2], [1,3], [2]]
+		
+	},
+	
+	{
+	
+		"occurrence": 1,
+		
+		"areas": ["Town", "Meadow"],
+		
+		"edges": [[0], [0], [1], [0]],
+		
+		"adjacency": [[1], [0]],
+		
+		"bonus":[0]
+	
+	},
+	
+	{
+	
+		"occurrence": 3,
+		
+		"areas": ["Town", "Meadow"],
+		
+		"edges": [[0], [0], [1], [0]],
+		
+		"adjacency": [[1], [0]]
+		
+	},
+	
+	{
+	
+		"occurrence": 2,
+		
+		"areas": ["Town", "Meadow", "Road", "Meadow"],
+		
+		"edges": [[0], [0], [3,2,1], [0]],
+		
+		"adjacency": [[1,2,3], [0,2], [0,1,3], [0,2]],
+		
+		"bonus": [0]
+		
+	},
+	
+	{
+	
+		"occurrence": 1,
+		
+		"areas": ["Town", "Meadow", "Road", "Meadow"],
+		
+		"edges": [[0], [0], [3,2,1], [0]],
+		
+		"adjacency": [[1,2,3], [0,2], [0,1,3], [0,2]]
+		
+	},
+	
+	{
+	
+		"occurrence": 8,
+		
+		"areas": ["Meadow", "Road", "Meadow"],
+		
+		"edges": [[0,1,2], [0], [2,1,0], [2]],
+		
+		"adjacency": [[1], [0,2], [1]]
+		
+	},
+	
+	{
+	
+		"occurrence": 9,
+		
+		"areas": ["Meadow", "Road", "Meadow"],
+		
+		"edges": [[0], [2,1,0], [0,1,2], [0]],
+		
+		"adjacency": [[1], [0,2], [1]]
+		
+	},
+	
+	{
+	
+		"occurrence": 4,
+		
+		"areas": ["Meadow","Road", "Meadow", "Road", "Meadow", "Road"],
+		
+		"edges": [[0], [2,1,0], [4,3,2], [0,5,4]],
+		
+		"adjacency": [[1,5], [0,2], [1,3], [2,4], [3,5], [0,4]]
+		
+	},
+	
+	{
+	
+		"occurrence": 1,
+		
+		"areas": ["Meadow", "Road", "Meadow", "Road", "Meadow", "Road", "Meadow", "Road"],
+		
+		"edges": [[0,1,2], [4,3,0], [6,5,4], [2,7,6]],
+		
+		"adjacency": [[1,3], [0,2], [1,7], [0,4], [3,5], [4,6], [5,7], [2,6]]
+		
+	}
+		
+]

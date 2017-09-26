@@ -1,0 +1,40 @@
+
+[
+
+{
+	
+		"occurrence": 2,
+		
+		"areas": ["Town"],
+		
+		"edges": [[0], [0], [0], [0]],
+		
+		"bonus": [0]
+		
+	},
+	
+{
+	
+		"occurrence": 7,
+		
+		"areas": ["Town", "Meadow"],
+		
+		"edges": [[0], [1], [1], [1]],
+		
+		"adjacency": [[1], [0]]
+		
+	},
+	
+	{
+	
+		"occurrence": 6,
+		
+		"areas": ["Meadow", "Road", "Meadow"],
+		
+		"edges": [[0,1,2], [0], [2,1,0], [2]],
+		
+		"adjacency": [[1], [0,2], [1]]
+		
+	}
+	
+]
